@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, shrink-to-fit=no" />
+    <title>
+       Shark-ANALYTICS
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="author" content="Patrick David" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script language="javascript">
+  function fun() {
+    let p = document.getElementById("shape");
+    let p1 = document.getElementById("shape1");
+  
+    if (p.style.display === "none") {
+      p.style.display = "block";
+    } else {
+      p.style.display = "none";
+    }
+  
+    if (p1.style.display === "none") {
+      p1.style.display = "block";
+    } else {
+      p1.style.display = "none";
+    }
+  }
+  </script>
+  
+
+    <!-- Custom css -->
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body style="width: 100%;height: 100%;"> 
+    <!--  Main Wrap  -->
+    
+        <!--  Header & Menu  -->
+        <!--  class: fixed, bg, white, transparent  -->
+     
+        <nav class="navbar navbar-expand-lg bg-body-tertiary"  style="width: 100%;background-color: black;margin: 0;padding: 0;">
+            <div class="container-fluid" style="background-color: black;">
+              <a class="navbar-brand head" href="home.html"><img class="logo1" src="img/logo1.png" alt=""></a>
+              <button  class="navbar-toggler btn3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"onclick="fun()">
+                <span class="navbar-toggler-icon"><span ><i style="font-size: 26px;" class="fa-solid fa-bars"></i></span></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" style="width: 100%;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 " style="margin-left: 30%;"  >
+                  <li class="nav-item" >
+                    <a class="nav-link active head" aria-current="page" href="home.html">HOME</a>
+                  </li>
+                  <li class="nav-item" >
+                    <a  class="nav-link head" href="about-us.html">ABOUT-US</a>
+                  </li>
+                 
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle head" style="background-color: transparent;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SERVICES
+                    </a>
+                    <ul class="dropdown-menu"style="background-color: black;">
+                      <li><a class="dropdown-item head"  href="profit-snapper.html">Profit-Snapper</a></li>
+                      <li><a class="dropdown-item head" href="market-snapper.html">Market-Snapper</a></li>
+                      
+                     
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link head" href="news.html">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link head" href="report.html">REPORT-AND RESEARCH</a>
+                  </li >
+                  <a href="contact-us.html">
+                  <button class="btn2">CONTACT US</button>
+                </a>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+
+
+
+
+
+
+
+        <!--  Page Header  -->
+        <!--  class: image, round, hfixedlg, hfixedmd, hfixedsm  -->
+           
+        <!--  END Page Header  -->
+        <!--  Page Content  -->
+        <div class=" cont-video-hero" style="width: 100%;height: 80%;" data-overlay="">
+          <div class="videobg" style="width: 100%; overflow: hidden;">
+              <video class="video-bac" muted="" loop="" 
+              preload="auto" autoplay="" style="width: 100%;height: 100%;">
+                   <source src="img/video.mp4">
+                </video>
+          </div>
+          <div class="container">
+              <div class="row text-center justify-content-center">
+                  <div class="col-12 col-lg-12">
+                  <div class="la_banner_content">
+                  
+              </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+<div >
+  
+  <img id="shape" class="shape img-fluid" width="100%"height="100%" src="img/banshape.png" alt="">
+  <div id="shape1" class="shape1">
+  <h1 class="shape-h1">'watch, learn &amp; <br> profit together</h1>
+                  <h3 class="shape-h3"><sup style="font-weight: 900;margin-right: 50px;">________________</sup>99% of traders fail. Meanwhile, we're in the top 1%</h3>
+
+       </div>
+     </div>
+
+
+
+      
+                        <!--  Single Article  -->
+
+
+ <!--  Icon Section  -->
+ <center>
+<center class="container-wwd">
+ <section data-padding style="width: 100%;background-color: whitesmoke;">
+  <div class="container" style="text-align: left;">
+      <div data-aos="fade-up" class="row" >
+          <div class="col-12">
+              <div class="sectiontitle-element--inline">
+                  <div class="wrapper" style="margin-bottom: 50px;">
+                      <span class="toptitle--line--primary">About</span>
+                      <h2><span>What We Do</span></h2>
+                  </div>
+                  <!-- <div class="wrapper">
+                      <a href="#" class="btn--big--icon--round--colortwo--alt"><span>View All</span><i class="fas fa-chevron-right"></i></a>
+                  </div> -->
+              </div>
+          </div>
+      </div>
+      <div class="row" data-padding="smtop">
+                    
+
+
+          <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-md-4">
+              <div class="icon-element--box--round--shadow--colorone">
+                  <div class="info">
+                      <div class="icon--shadow--light"><i class="far fa-comment fafa1"></i></div>
+                      <div class="text">
+                          <h6> LEARN WHAT WE DO!</h6>
+                          <p> Learn from exclusive educational materials, available only pro members. We’ll help you to become a profitable trader.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+              
+
+
+          <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-md-4">
+              <div class="icon-element--box--round--shadow--colorone">
+                  <div class="info">
+                      <div class="icon--shadow--light"><i class="fas fa-graduation-cap fafa1"></i></div>
+                      <div class="text">
+                          <h6> WE TEACH WHAT WE TRADE!</h6>
+                          <p> We also trade in the market and we will teach you that what we trade on live market. So stay tuned with us and.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+              
+
+
+          <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-md-4">
+              <div class="icon-element--box--round--shadow--colorone">
+                  <div class="info">
+                      <div class="icon--shadow--light"><i class="fas fa-signal fafa1"></i></div>
+                      <div class="text">
+                          <h6> FOLLOW OUR TRADING TIPS!</h6>
+                          <p> Our team of professionals regularly publish reports and research for you to follow with clear entry and exit trade plans.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+              
+
+
+          <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-md-4">
+              <div class="icon-element--box--round--shadow--colorone">
+                  <div class="info">
+                      <div class="icon--shadow--light"><i class="fas fa-chess-king fafa1"></i></div>
+                      <div class="text">
+                          <h6> NAKED TRADING STRATEGY</h6>
+                          <p> Powerful Stock trading stripped back to basics. Pure price action and key support and resistance levels.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+              
+
+
+          <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-md-4">
+              <div class="icon-element--box--round--shadow--colorone">
+                  <div class="info">
+                      <div class="icon--shadow--light"><i class="fas fa-chess fafa1"></i></div>
+                      <div class="text">
+                          <h6> STOCKS PROPULSION STRATEGY</h6>
+                          <p> An intra-day trading strategy that uses powerful technical indicators to identify moves in the markets before they happen.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+              
+
+
+          <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-md-4">
+              <div class="icon-element--box--round--shadow--colorone">
+                  <div class="info">
+                      <div class="icon--shadow--light"><i class="fas fa-draw-polygon fafa1"></i></div>
+                      <div class="text">
+                          <h6> TREND SURFING STRATEGY</h6>
+                          <p> A swing trading strategy supercharged by our Trend Surfing EA will help you identify trading opportunities on the charts.</p>
+                      </div>
+                  </div>
+              </div >
+          </div>
+                             </div>
+  </div>
+
+</section>
+</center>
+</center>
+
+<div class="container text-center" style="margin-top: 50px ;">
+  <div class="row" style="background-color: white; padding-top: 50px;padding-bottom: 50px;border-radius: 10px;">
+    <div  class="col-sm block-vision"><span class="toptitle--line--primary">About Us</span>
+      <h2>OUR VISION</h2>
+      <p>Avoid FOMO with livermore Analytics active and prompt action in currencies*<br/>
+        Remember: There is always a big movement to the upside and downside, in some currencies, somewhere in the currency pair...at the same time!<br/>
+        What we provide is tactical currency pairs for trading: exposure across multiple currency pairs for trading, multiple strategies, multiple choices to trade.<br/><br/>
+        This is exactly what our vision is to give to you.
+      </p><a href="about-us.html" class="btn--big--icon--round--colortwo--alt">
+        <span>Read More</span><i class="fas fa-chevron-right"></i>
+      </a></div>
+    <div class="col-sm"><img style="width:80%;height: 500px; border-radius:20px;" src="img/614096dc053ba_vision.png" alt="Vision_image">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <!--  END Icon Section  -->
+                                  
+
+
+  <div class="jesse-bac">
+  <div class="jesse-con1"> <h1>Quotes</h1>  <p> <em> “Markets are never wrong – opinions often are.”</em>
+  </p>  <h4>Jasse Lauraston Shark-Analatics</h4=></div>
+  <div class="col-sm-3 jesseImg  jesse-con2">
+    <img  src="img/jesse.png" />
+    </div>
+  </div>
+  
+    
+   <br>
+
+
+
+<center>
+   <center class="container-wwd">
+    <section data-padding style="width: 100%;background-color: whitesmoke;">
+     <div class="container" style="text-align: left;">
+         <div data-aos="fade-up" class="row" >
+             <div class="col-12">
+                 <div class="sectiontitle-element--inline">
+                     <div class="wrapper" style="margin-bottom: 50px;">
+                         <span class="toptitle--line--primary">About</span>
+                         <h2><span>What We Do</span></h2>
+                     </div>
+                     <!-- <div class="wrapper">
+                         <a href="#" class="btn--big--icon--round--colortwo--alt"><span>View All</span><i class="fas fa-chevron-right"></i></a>
+                     </div> -->
+                 </div>
+             </div>
+         </div>
+         <div class="row" data-padding="smtop">
+                       
+   
+   
+             <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-md-4">
+                 <div class="icon-element--box--round--shadow--colorone">
+                     <div class="info" >
+                         <div class="icon--shadow--light"><i class="fa-solid fa-1 fafa1"></i></div>
+                         <div class="text">
+                             <h6>NAKED TRADING STRATEGY</h6>
+                             <p> Powerful Stock trading stripped back to basics. Pure price action and key support and resistance levels.</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+                 
+   
+   
+             <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-md-4">
+                 <div class="icon-element--box--round--shadow--colorone">
+                     <div class="info">
+                         <div class="icon--shadow--light"><i class="fa-solid fa-2 fafa1"></i></div>
+                         <div class="text">
+                             <h6>STOCKS PROPULSION STRATEGY</h6>
+                             <p>An intra-day trading strategy that uses powerful technical indicators to identify moves in the markets before they happen.</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+                 
+   
+   
+             <div data-aos="fade-up" data-aos-delay="100" class="col-12 col-md-4">
+                 <div class="icon-element--box--round--shadow--colorone">
+                     <div class="info">
+                         <div class="icon--shadow--light"><i class="fa-solid fa-3 fafa1"></i></div>
+                         <div class="text">
+                             <h6> TREND SURFING STRATEGY</h6>
+                             <p>A swing trading strategy supercharged by our Trend Surfing EA will help you identify trading opportunities on the charts.</p>
+                         </div>
+                     </div>
+                 </div>
+             </div></div></div></section></center>
+
+
+            </center>
+
+
+
+
+
+
+
+
+
+<div class="client-say">
+  <div class="say1 "><img height="100%"width="100%" src="img/testimonial-agency@2x.jpg" alt=""></div>
+  <div class="say2 ">
+    <p>
+    Testimonials
+      </p>
+      <h2>What client says about us</h2>
+      <p><em>“ "Great trading skills to learn and improve your trading ideas. It's also so helpful to build the ground for your trading career Responsive/passionate mentors are always there to keep you up and teach you how to move forward." “</em></p>
+      <img width="80px" src="img/61409035f381d_ahmed.jpg" alt="">
+      <h4>Ahmed</h4>
+  </div>
+</div>
+<hr>
+
+<!-- line -->
+<center>
+<h1 style="margin-top: 60px;margin-bottom: 40px;">What We Think</h1>
+</center>
+<div style="display: flex;flex-wrap: wrap;justify-content: space-evenly;margin-bottom: 50px;">
+  <a href="news1.html" style="color: black; text-decoration: none;">
+  <div class="card" style="width: 20rem;height: 450px;">
+  
+    <img src="img/61448a6d08566_TIPP_eo_Over_090721-150x150.jpg" class="card-img-top" alt="...">
+  
+    <div class="card-body">
+    <h5 style="margin-top: 20px;margin-bottom: 15px;" class="card-title">IBD/TIPP Poll:Tracking...</h5>
+    <p class="card-text">The IBD/TIPP Economic Optimism <br> Index is the earlier take an <br>consumer confidence each month...</p>
+  </div>
+</div></a>
+<a href="news2.html" style="color: black; text-decoration: none;">
+<div class="card" style="width:20rem ;height: 450px;">
+  <img src="img/614489f1991af_Stock-shopping-1-adobe-150x150.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5  style="margin-top: 20px;margin-bottom: 15px;"  class="card-title">CPI Inflation Comes In..</h5>
+    <p class="card-text">The consumer price index undershot expectations in August, as CPI inflation eased off a 13-year </p>
+  </div>
+</div>
+</a>
+<center>
+<a href="news3.html" style="color: black; text-decoration: none;">
+<div class="card" style=" width: 20rem;height: 450px;">
+  <img src="img/614488586d9e2_stock-shopping-16-adobe-768x432.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5  style="margin-top: 20px;margin-bottom: 15px;"  class="card-title">Retail Sales Surprise </h5>
+    <p class="card-text">Retail sales rose 0.7% in August from the prior month despite the chip shortage and Covid upsurge, the </p>
+  </div>
+</div></a>
+</center>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="carousel-item">
+    <div class="card-wrapper container-sm d-flex  justify-content-around">
+
+      </div>
+      <div class="card" style="width: 18rem;">
+<img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">Card title</h5>
+  
+</div>
+</div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+            <!--  Portfolio  -->
+
+
+
+
+
+  
+  
+  
+  <center><a href="news.html"><button style="background-color: darkred;padding: 10px;border-radius: 25px;width: 150px;color: white;height: 50px;border: none;">READ MORE >></button></a></center>
+  <br><br>
+
+
+
+   
+
+            <!--  Description  -->
+                        
+        <!--  END Page Content  -->
+ <!-- whatsapp chat  -->
+ <a href="https://api.whatsapp.com/send?phone=916269930657&text=Hello sir i am Interested in Market" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>
+     <!-- footer -->
+  <section class="laFooter" style="width: 100%;display: block;justify-content: space-evenly;"  >
+    <div class="container"style="width:100%;">
+      
+      <div class="row" style="display: block;justify-content: center;width: 100%;">
+        <div class="col-md-4 text-left">
+          <ul class="socialIcon" style="margin-left: 2%;margin-bottom: 10px;">
+            <li ><a href="https://www.facebook.com/profile.php?id=61553240938839"><i class="fab fa-facebook-f"></i></a></li>
+            <li ><a href="https://instagram.com/shark_analytics?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fab fa-instagram"></i></a></li>
+            <li > <a href="qr.html"> <i class="fa-solid fa-qrcode"></i>  </a></li>
+            <li style="color: white;"> < pay</li>
+          </ul>
+        </div>
+        <center><div class="col-md-4">
+          <div class="footLogo text-center">
+            <a href="home.html">
+              <img style="width: 180px;margin-bottom: -20%;" data-unveil src="img/logo1.png" data-src="img/Logo1.png" alt="">
+            </a></div>
+        </div></center>
+        <div class="col-md-4">
+          <div class="paymentGatwayImg">
+            <ul class="pg">
+              <li><img class="imgPg" src="" alt=""></li>
+              <li><img class="imgPg" src="" alt=""></li>
+              <li><img class="imgPg" src="" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex;flex-wrap:wrap ;" class="row contactDetail">
+                   <div class="col-md-3 boxCard">
+            
+           
+          <figure > 
+            <i class="fas fa-envelope" ></i>
+          </figure>
+          <h2>Mail</h2>
+          <a href="mailto:sharkanalytics1@gmail.com">sharkanalytics1<br> @gmail.com<br> analytics.com</a>
+        </div>
+        <div style="margin-left: 3%;margin-right: 3%;margin-top: 10px;margin-bottom: 10px;" class="col-md-3 boxCard">
+          <figure>
+            <i class="fas fa-headset"></i>
+          </figure>
+          <h2>Call</h2>
+          <a href="tel:+91 6269930657">+91 6269930657</a>
+        </div>
+
+        <div class="col-md-3 boxCard">
+          <figure>
+            <i class="fas fa-map-marker-alt"></i>
+          </figure>
+          <h2>Find Us</h2>
+          <a href="#">Banglore Yeswanthpur <br> KA 04.</a>
+        </div>
+              </div>
+      <div class="row copyRightArea">
+        <p>Copyright © Shark-analytics.in</p>
+      </div>
+  </section>
+  
+  
+  <!--  END Footer  -->
+    </div>
+    <!--  Main Wrap  -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!--  END Scripts  -->
+  
+    
+</body>
+
+</html>
